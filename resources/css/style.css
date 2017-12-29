@@ -2,34 +2,105 @@
 }
 
 .logo{
+  background-color: black;
+  color: white;
+  font-family:Helvetica;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom:0.66rem;
+  width: 100%;
 }
 
 .logo img{
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  height: 1.5rem;
+  
 }
 
 .mainbanner{
+  width: 20rem;
+  padding-top: 9rem;
+  background-color: black;
+  color:white;
+}
+
+.mainbanner p{
+  font-family:Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top:2rem;
+  padding-bottom: 0.25rem;
+  
+}
+
+.mainbanner h4{
+  padding-left: 3rem;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  
 }
 
 .mainbanner img{
+  height: 25rem;
+  width:100%;
 }
 
 .nav{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: firebrick;
+  
 }
 
 .product{
+  display: flex;
+  padding-top:3rem;
+  border: 4px solid black;
+  width: 30%;
+  
+  
 }
 
 .product img{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 9rem;
 }
 
 .product p{
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+  color: white;
 }
 
 .location{
+  padding-top: 3rem;
+  width: 35%;
+  color:white;
+  background-color: black;
+}
+
+.location p{
+  padding-left: 2rem;
 }
 
 .hours{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.hours p{
 }
 
 .footer{
+  text-align: left;
+  background-color: black;
+  height: 3rem;
+  width: 100%;
 }
